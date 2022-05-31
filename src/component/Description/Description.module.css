@@ -1,0 +1,46 @@
+.root {
+    height: auto;
+    border-radius: 1% 1% 0 0;
+    padding: 15px;
+    color: rgb(233, 227, 227);
+    font-weight: 500;
+    font-family: "Nunito";
+
+}
+
+
+
+
+.card {
+    margin: 0 30%;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    border-top: 4px solid rgb(142, 158, 230);
+    width: 50%;
+    height: 30%;
+    -webkit-box-shadow: 8px 11px 21px 4px rgba(0, 0, 0, 0.78);
+    box-shadow: 8px 11px 21px 4px rgba(0, 0, 0, 0.78);
+    border-top: 4px solid rgb(142, 158, 230);
+
+}
+
+.dark {
+
+    justify-content: space-between;
+}
+
+
+.button {
+    background: rgb(142, 158, 230);
+    color: rgb(36, 34, 34);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+
+}
+

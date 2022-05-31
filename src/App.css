@@ -1,0 +1,16 @@
+/* Navbar */
+.navbar-nav a {
+  font-size: 18px;
+}
+
+.card-title {
+  position: relative;
+
+  top: 150%;
+}
+
+.card-text {
+  position: relative;
+
+  top: 150%;
+}
