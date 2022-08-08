@@ -92,7 +92,7 @@ export default function Cart() {
                 {cartData.length !== 0 && <button onClick={onToken} className={classes.button}><StripeCheckout
                     token={onToken}
                     text="order now"
-                    stripeKey="pk_test_51K6yIdAy7KDVZHoTFOdUB6sRjyJBNhvqKha7UAcn5cKmyy1zxyQlF7nCdkVvvpqCm52VRoHZsPbZhEJlVXNTnu7N00paEBKEL2"
+                    stripeKey={process.env.STRIP_PUBLIC_KEY}
                 /></button>}
 
             </div>
